@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1670495333 source:c:\users\arif mandal\desktop\udemy kurslar\git\calculator project\calculator\main.c
+	<stdio.h>
+	<stdlib.h>
+
