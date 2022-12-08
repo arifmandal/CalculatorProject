@@ -13,6 +13,7 @@ int main()
     printf("subtraction: %d\n", sub(number1,number2) );
     printf("multiplication: %d\n", mult(number1,number2) );
     printf("division: %d\n", division(number1,number2) );
+    printf("Program sonlandirildi...Good bye...\n" );
     return 0;
 }
 
