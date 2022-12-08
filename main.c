@@ -4,5 +4,28 @@
 int main()
 {
     printf("Calculator Project!\n");
+    int number1, number2;
+    number1=10;
+    number2=4;
+    printf("addition: %d\n", add(number1,number2) );
+    printf("subtraction: %d\n", sub(number1,number2) );
+    printf("multiplication: %d\n", mult(number1,number2) );
+    printf("division: %d\n", division(number1,number2) );
     return 0;
+}
+
+int add(int number1, int number2){
+    return number1+number2;
+}
+
+int sub(int number1, int number2){
+    return number1-number2;
+}
+
+int mult(int number1, int number2){
+    return number1*number2;
+}
+
+int division(int number1, int number2){
+    return number1/number2;
 }
