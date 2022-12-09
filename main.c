@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+int add(int number1, int number2);
+int sub(int number1, int number2);
+int mult(int number1, int number2);
+int division(int number1, int number2);
+int modul(int number1, int number2);
 
 int main()
 {
